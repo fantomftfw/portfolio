@@ -1,61 +1,67 @@
-# Minecraft-themed 3D Portfolio
+# Minecraft Portfolio
 
-A 3D portfolio website inspired by Hassan Karrach's portfolio but with Minecraft-style blocky graphics using Three.js and Next.js.
+A modern 3D portfolio website with a Minecraft theme. This project combines the immersive feel of a Minecraft-inspired 3D scene with a professional portfolio website.
 
 ## Features
 
-- Interactive 3D Minecraft-themed workspace with desk, computer, and decorative elements
-- Blocky voxel-based graphics with distinctive Minecraft pixel textures
-- Interactive elements that respond to user input (hovering, clicking)
-- Smooth camera movements between different sections
-- Clean UI overlay with portfolio information
-- Responsive design that works on both desktop and mobile
-- Optimized 3D rendering with React Three Fiber
+- Interactive 3D Minecraft-themed environment
+- Smooth camera transitions between sections
+- Responsive design with mobile support
+- Dark theme with Minecraft-inspired styling
+- Sections for showcasing projects, skills, and contact information
 
-## Sections
+## Technologies Used
 
-- Home - Main introduction
-- About - Personal information
-- Projects - Showcase of past work
-- Skills - Technologies and capabilities
-- Contact - How to get in touch
-
-## Technology Stack
-
-- Next.js - React framework
-- Three.js - 3D graphics library
-- React Three Fiber - React renderer for Three.js
-- React Three Drei - Useful helpers for React Three Fiber
-- TypeScript - Type safety
-- Tailwind CSS - Styling
+- Next.js
+- React
+- Three.js (via React Three Fiber)
+- TypeScript
+- Tailwind CSS
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v16 or later)
+- Node.js (v14 or higher)
 - npm or yarn
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd minecraft-portfolio
+git clone https://github.com/fantomftfw/portfolio.git
+cd portfolio
 ```
 
-2. Install dependencies
+2. Install dependencies:
 ```bash
 npm install
+# or
+yarn install
 ```
 
-3. Run the development server
+3. Run the development server:
 ```bash
-# Use the start.bat file or run:
 npm run dev
+# or
+yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## Deployment
+
+This project can be easily deployed to Netlify. Follow the deployment guide in the documentation.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Minecraft for the visual inspiration
+- Three.js for the 3D rendering capabilities
+- Next.js team for the amazing framework
 
 ## Project Structure
 
@@ -96,10 +102,6 @@ npm run build
 # or
 yarn build
 ```
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Credits
 

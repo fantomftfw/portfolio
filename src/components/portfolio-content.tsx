@@ -21,7 +21,7 @@ type Project = {
 
 // Portfolio data
 const portfolioData = {
-  name: 'Steve Minecrafter',
+  name: 'Sameer Patil',
   title: 'Product Designer',
   photo: '/images/profile.jpg', // Replace with actual photo path
   bio: 'Crafting digital experiences with pixel-perfect precision. I transform complex challenges into intuitive designs that users love.',
@@ -66,10 +66,10 @@ const portfolioData = {
     }
   ] as Project[],
   contact: {
-    email: 'steve@minecraft.design',
-    github: 'github.com/steveminecrafter',
-    linkedin: 'linkedin.com/in/steveminecrafter',
-    twitter: 'twitter.com/steveminecrafter'
+    email: 'sameer@patil.design',
+    github: 'github.com/sameerpatil',
+    linkedin: 'linkedin.com/in/sameerpatil',
+    twitter: 'twitter.com/sameerpatil'
   }
 };
 

@@ -1131,34 +1131,17 @@ const MinecraftWorld = ({ lightSettings, setLightSettings }: {
   )
 }
 
-// Camera Debug HUD component (outside Canvas)
-const CameraDebugHUD = ({ cameraState }: { cameraState: CameraPositionState }) => {
+// Component to display camera position for debugging
+const CameraDebugHUD: React.FC<{ cameraState: CameraPositionState }> = ({ cameraState }) => {
+  if (!cameraState) return null;
+  
   return (
-    <div 
-      style={{
-        position: 'absolute',
-        top: '10px',
-        left: '10px',
-        background: 'rgba(0,0,0,0.7)',
-        color: 'white',
-        padding: '10px',
-        borderRadius: '5px',
-        fontFamily: 'monospace',
-        fontSize: '12px',
-        zIndex: 100,
-        pointerEvents: 'none'
-      }}
-    >
-      <div>Camera Position:</div>
-      <div>X: {cameraState.camera.x} Y: {cameraState.camera.y} Z: {cameraState.camera.z}</div>
-      <div>Target Position:</div>
-      <div>X: {cameraState.target.x} Y: {cameraState.target.y} Z: {cameraState.target.z}</div>
-      <div style={{marginTop: '5px', fontSize: '10px'}}>
-        Use mouse to freely rotate and find the best angle
-      </div>
+    <div style={{ display: 'none', position: 'absolute', bottom: '10px', left: '10px', backgroundColor: 'rgba(0,0,0,0.7)', color: 'white', padding: '10px', fontFamily: 'monospace', fontSize: '12px', zIndex: 100, borderRadius: '5px' }}>
+      <div>Camera Position: x:{cameraState.camera.x.toFixed(2)}, y:{cameraState.camera.y.toFixed(2)}, z:{cameraState.camera.z.toFixed(2)}</div>
+      <div>Camera Target: x:{cameraState.target.x.toFixed(2)}, y:{cameraState.target.y.toFixed(2)}, z:{cameraState.target.z.toFixed(2)}</div>
     </div>
-  )
-}
+  );
+};
 
 // Main component with ratio adjusted back to 35-65
 const MinecraftScene = () => {

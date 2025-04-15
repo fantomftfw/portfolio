@@ -5,7 +5,7 @@ import { Section } from '../lib/types'
 
 // Portfolio data
 const portfolioData = {
-  name: 'Steve Minecrafter',
+  name: 'Sameer Patil',
   title: 'Full Stack Developer',
   about: 'A passionate developer who loves creating blocky experiences. Specializing in React, Three.js, and building immersive digital worlds.',
   projects: [
