@@ -151,7 +151,7 @@ const UI = () => {
                       className="inline-block bg-minecraft-green hover:bg-minecraft-grass px-4 py-2 rounded"
                       tabIndex={0}
                       aria-label={`View project ${project.title}`}
-                      onKeyDown={(e) => e.key === 'Enter' && window.open(project.link, '_blank')}
+                      onKeyDown={(e) => e.key === 'Enter' && (window.open(project.link, '_blank'))}
                     >
                       View Project
                     </a>
@@ -188,7 +188,7 @@ const UI = () => {
                     className="underline hover:text-minecraft-green"
                     tabIndex={0}
                     aria-label="Send email"
-                    onKeyDown={(e) => e.key === 'Enter' && window.location.href = `mailto:${portfolioData.contact.email}`}
+                    onKeyDown={(e) => e.key === 'Enter' && (window.location.href = `mailto:${portfolioData.contact.email}`)}
                   >
                     {portfolioData.contact.email}
                   </a>
@@ -202,7 +202,7 @@ const UI = () => {
                     rel="noopener noreferrer"
                     tabIndex={0}
                     aria-label="Visit GitHub profile"
-                    onKeyDown={(e) => e.key === 'Enter' && window.open(`https://${portfolioData.contact.github}`, '_blank')}
+                    onKeyDown={(e) => e.key === 'Enter' && (window.open(`https://${portfolioData.contact.github}`, '_blank'))}
                   >
                     {portfolioData.contact.github}
                   </a>
@@ -216,7 +216,7 @@ const UI = () => {
                     rel="noopener noreferrer"
                     tabIndex={0}
                     aria-label="Visit LinkedIn profile"
-                    onKeyDown={(e) => e.key === 'Enter' && window.open(`https://${portfolioData.contact.linkedin}`, '_blank')}
+                    onKeyDown={(e) => e.key === 'Enter' && (window.open(`https://${portfolioData.contact.linkedin}`, '_blank'))}
                   >
                     {portfolioData.contact.linkedin}
                   </a>
