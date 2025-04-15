@@ -1,0 +1,32 @@
+{
+  "name": "minecraft-portfolio",
+  "version": "1.0.0",
+  "description": "A Minecraft-themed 3D portfolio website",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["minecraft", "portfolio", "3d", "threejs", "react", "nextjs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.152.2",
+    "@react-three/fiber": "8.13.6",
+    "@react-three/drei": "9.80.1",
+    "typescript": "5.1.6",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "@types/node": "20.4.8",
+    "@types/three": "0.152.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.3.3",
+    "postcss": "8.4.27",
+    "autoprefixer": "10.4.14"
+  }
+}

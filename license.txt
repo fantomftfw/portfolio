@@ -1,0 +1,11 @@
+Model Information:
+* title:	minecraft deskroom
+* source:	https://sketchfab.com/3d-models/minecraft-deskroom-34a91deb9a4346898cec1e8391a3675b
+* author:	Citron Vert (https://sketchfab.com/citron.vert)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "minecraft deskroom" (https://sketchfab.com/3d-models/minecraft-deskroom-34a91deb9a4346898cec1e8391a3675b) by Citron Vert (https://sketchfab.com/citron.vert) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
